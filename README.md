@@ -32,7 +32,7 @@
 
 **VIDABIN Shorts Clipper** is a cross-platform desktop application that uses AI to automatically transform long-form YouTube videos and local video files into perfectly edited, viral-ready 9:16 short clips for **TikTok, Instagram Reels, and YouTube Shorts**.
 
-Unlike cloud-based tools (OpusClip, Vizard, Klap) that charge $15–$79/month with video minute limits, VIDABIN runs **100% on your PC** using **your own AI API keys** — you pay only the raw API cost (~$0.01–$0.05 per video) or **$0 with free LLM models**.
+Unlike cloud-based tools (OpusClip, Vizard, Klap) that charge $15–$79/month with video minute limits, VIDABIN-Shorts Clipper runs **100% on your PC** using **your own AI API keys** — you pay only the raw API cost (~$0.01–$0.05 per video) or **$0 with free LLM models**.
 
 ### The Complete Pipeline — Fully Automated
 
@@ -92,7 +92,7 @@ Unlike cloud-based tools (OpusClip, Vizard, Klap) that charge $15–$79/month wi
 
 ### 🤖 AI Viral Highlight Detection (6 AI Providers)
 
-The core intelligence of VIDABIN. Your chosen AI model reads the entire video transcript and identifies the most viral-worthy moments using a **5-signal composite ranking**:
+The core intelligence of VIDABIN-Shorts clipper. Your chosen AI model reads the entire video transcript and identifies the most viral-worthy moments using a **5-signal composite ranking**:
 
 | Signal | What It Detects |
 |--------|----------------|
@@ -220,7 +220,7 @@ Auto-detected — no manual configuration needed.
 
 ---
 
-## 📊 How VIDABIN Compares
+## 📊 How VIDABIN Clipper Compares
 
 | Feature | OpusClip / Vizard / Klap | VIDABIN Clipper |
 |---------|--------------------------|-----------------|
