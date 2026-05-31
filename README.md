@@ -1,2 +1,370 @@
-# Shorts-Clipping-tool
-VIDABIN Shorts Clipper — The AI-Powered Desktop Tool that Automatically Turns Long YouTube &amp; local Videos into Unlimited Viral Short Clips with your own API Key.
+<p align="center">
+  <img src="https://res.cloudinary.com/drrhpl14n/image/upload/v1779036462/VIDABIN_Clipper_best_size_web_logo_v5wnwd.png" alt="VIDABIN Shorts Clipper Logo" width="320" />
+</p>
+
+<h1 align="center">VIDABIN Shorts Clipper</h1>
+
+<p align="center">
+  <strong>AI-Powered Desktop Tool — Automatically Turn Long YouTube & Local Videos into Unlimited Viral Short Clips</strong>
+</p>
+
+<p align="center">
+  <em>100% Local Processing • Your Own API Keys • No Cloud Upload • No Video Limits</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vidabin/Shorts-Clipping-tool/releases/latest"><img src="https://img.shields.io/github/v/release/vidabin/Shorts-Clipping-tool?style=for-the-badge&color=08B0D5&label=Latest%20Release" alt="Latest Release" /></a>
+  <a href="https://github.com/vidabin/Shorts-Clipping-tool/releases"><img src="https://img.shields.io/github/downloads/vidabin/Shorts-Clipping-tool/total?style=for-the-badge&color=0EF060&label=Downloads" alt="Total Downloads" /></a>
+  <a href="https://www.vidabinclipper.com/"><img src="https://img.shields.io/badge/Website-vidabinclipper.com-005BAD?style=for-the-badge" alt="Website" /></a>
+  <a href="#-supported-platforms"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blueviolet?style=for-the-badge" alt="Platforms" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.vidabinclipper.com/docs.html"><img src="https://img.shields.io/badge/📖_Documentation-Read_Docs-08B0D5?style=flat-square" alt="Docs" /></a>
+  <a href="https://www.facebook.com/VidabinLabs"><img src="https://img.shields.io/badge/Facebook-VidabinLabs-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://t.me/vidabinclipper"><img src="https://img.shields.io/badge/Telegram-vidabinclipper-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://wa.me/8801752522902"><img src="https://img.shields.io/badge/WhatsApp-Support-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+</p>
+
+---
+
+## 🎬 What is VIDABIN Shorts Clipper?
+
+**VIDABIN Shorts Clipper** is a cross-platform desktop application that uses AI to automatically transform long-form YouTube videos and local video files into perfectly edited, viral-ready 9:16 short clips for **TikTok, Instagram Reels, and YouTube Shorts**.
+
+Unlike cloud-based tools (OpusClip, Vizard, Klap) that charge $15–$79/month with video minute limits, VIDABIN runs **100% on your PC** using **your own AI API keys** — you pay only the raw API cost (~$0.01–$0.05 per video) or **$0 with free LLM models**.
+
+### The Complete Pipeline — Fully Automated
+
+```
+📋 Paste YouTube URL (or import local MP4/MKV + SRT)
+     ↓
+🤖 AI analyzes transcript → detects viral-worthy highlights
+     ↓
+✂️  Cuts clips → converts to 9:16 portrait with face tracking
+     ↓
+🎤 Generates AI voice hook → prepends to each clip
+     ↓
+💬 Burns animated word-level captions into video
+     ↓
+📤 Upload directly to YouTube, TikTok, Instagram, Facebook, Threads
+```
+
+> **One click. Multiple viral clips. Zero cloud dependency.**
+
+---
+
+## ⬇️ Download & Install
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🪟 Windows</h3>
+      <a href="https://github.com/vidabin/Shorts-Clipping-tool/releases/download/v2.7/VIDABIN-ShortsClipper.exe">
+        <img src="https://img.shields.io/badge/Download-.exe-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Download" />
+      </a>
+      <br/><sub>Run the installer → Launch from Start Menu</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🍎 macOS</h3>
+      <a href="https://github.com/vidabin/Shorts-Clipping-tool/releases/download/v2.7/VIDABIN-ShortsClipper-macOS.dmg">
+        <img src="https://img.shields.io/badge/Download-.dmg-black?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Download" />
+      </a>
+      <br/><sub>Open DMG → Drag to Applications</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🐧 Linux</h3>
+      <a href="https://github.com/vidabin/Shorts-Clipping-tool/releases/download/v2.7/VIDABIN-ShortsClipper-Linux-x64.tar.gz">
+        <img src="https://img.shields.io/badge/Download-.tar.gz-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Download" />
+      </a>
+      <br/><sub>Extract archive → Run executable</sub>
+    </td>
+  </tr>
+</table>
+
+> 🆓 **Free Trial**: 3 days full access — no credit card required. Just download and start clipping!
+
+**Core dependencies (FFmpeg, yt-dlp) are automatically managed by the application.** No manual setup needed for basic usage.
+
+---
+
+## ✨ Key Features
+
+### 🤖 AI Viral Highlight Detection (6 AI Providers)
+
+The core intelligence of VIDABIN. Your chosen AI model reads the entire video transcript and identifies the most viral-worthy moments using a **5-signal composite ranking**:
+
+| Signal | What It Detects |
+|--------|----------------|
+| **Virality Score** (1-10) | Conflict, confession, strong opinions, punchlines, emotional reveals |
+| **CTR Score** (1-10) | Click-worthiness, curiosity gaps, emotional triggers |
+| **Audio Impact** | Emotional peaks, voice tonality shifts, dramatic pauses |
+| **Narrative Completeness** | Self-contained story arcs with clear beginning/middle/end |
+| **Duration Fitness** | Algorithm-optimized length (30-90 sec sweet spot) |
+
+For each clip, the AI auto-generates: **title, description, hook text, thumbnail prompt, social captions (YouTube/TikTok/Instagram variants), and hashtags** — all in the video's original language.
+
+**Supported AI Providers:**
+
+| Provider | Models | Use For |
+|----------|--------|---------|
+| **OpenAI** | GPT-5, GPT-4o, o3-mini, o4-mini | Highlights, Captions (Whisper), TTS Hooks |
+| **Google Gemini** | Gemini 2.5 Flash/Pro | Highlights, TTS Hooks (30+ voices) |
+| **Groq** | Llama 3.3 70B, DeepSeek, Qwen | Highlights (free tier available) |
+| **Anthropic Claude** | Claude Sonnet 4, Haiku 3.5 | Highlights |
+| **OpenRouter** | 800+ models from all providers | Highlights (access any model, free options available) |
+| **Custom LLM** | Any OpenAI-compatible API | Highlights, Captions |
+
+> 💡 **Each function can use a different provider** — e.g., Groq (free) for highlights, OpenAI for captions, ElevenLabs for hooks.
+
+---
+
+### 👤 Smart Face Tracking & 9:16 Portrait Crop (4 Engines)
+
+Automatically converts 16:9 landscape video to perfect **9:16 portrait** with smooth camera panning and active speaker tracking:
+
+| Engine | Technology | Best For |
+|--------|-----------|----------|
+| **OpenCV** | Haar cascade detection | Fast processing, lightweight |
+| **MediaPipe** | Face mesh + lip analysis | Active speaker detection via lip movement |
+| **InsightFace** | Deep learning (buffalo_l) | Face ID tracking across frames |
+| **InsightFace + Light-ASD** | InsightFace + Active Speaker Detection | Most accurate multi-speaker tracking |
+
+✅ Smooth camera pans (no jarring jumps) · Follows the active speaker · Simulated camera cuts between speakers
+
+---
+
+### 🎤 Smart Podcast Mode
+
+Designed for podcast/interview videos with two speakers:
+
+- **Smart Adaptive Scan** — analyzes the full clip to detect face positions
+- **Top/Bottom Split Portrait** (9:16) — left speaker on top, right speaker on bottom
+- **Configurable split point** — adjustable split ratio
+- Automatic fallback to static 50/50 split if needed
+
+---
+
+### 💬 Intelligent Caption System (Dual Engine)
+
+| Method | How It Works | Cost |
+|--------|-------------|------|
+| **SRT-Based** (Primary) | Uses original YouTube/uploaded subtitles | **Free** — 100% accurate |
+| **Whisper API** (Fallback) | Transcribes audio via OpenAI Whisper API | ~$0.006/min |
+
+- **Animated word-level yellow highlight** — currently spoken word highlighted in real-time
+- **50+ languages** with automatic font selection for perfect rendering
+- ASS subtitle format with rich styling, burned directly into video via FFmpeg
+- **Per-Clip SRT Export** — individual SRT files for each clip (use with CapCut, Premiere Pro, DaVinci Resolve)
+
+**Supported Languages Include:** English, Spanish, French, German, Portuguese, Bengali, Hindi, Arabic, Chinese, Japanese, Korean, Thai, Turkish, Russian, Indonesian, Vietnamese, and 35+ more — with auto language detection via Unicode analysis.
+
+---
+
+### 🎣 AI Hook Voice (3 TTS Engines)
+
+AI writes a punchy viral hook sentence (max 15 words) for each clip, then generates a voice hook prepended to the clip start:
+
+| TTS Provider | Voices | Highlights |
+|-------------|--------|------------|
+| **OpenAI TTS** | 6 voices (alloy, echo, fable, onyx, nova, shimmer) | tts-1 and tts-1-hd models |
+| **Google Gemini TTS** | 30+ voices (Puck, Charon, Kore, etc.) | Natural multilingual voices |
+| **ElevenLabs** | Unlimited (default + cloned voices) | Premium voice cloning support |
+
+> Creates instant **"stop-the-scroll"** effect at the beginning of each clip.
+
+---
+
+### 📤 Multi-Platform Upload (5 Platforms)
+
+Upload directly from within the app:
+
+| Platform | Method | Features |
+|----------|--------|----------|
+| **YouTube** | Direct API (OAuth2) | AI-generated SEO titles, descriptions, tags |
+| **TikTok** | Via Repliz API | Direct posting with captions |
+| **Instagram** | Via Repliz API | Reels posting |
+| **Facebook** | Via Repliz API | Reels posting |
+| **Threads** | Via Repliz API | Video posting |
+
+AI-powered social captions auto-generated for each platform (YouTube/Facebook variant + TikTok/Instagram variant).
+
+---
+
+### 🖼️ AI Thumbnail Prompts
+
+For each clip, the AI generates a detailed thumbnail image prompt describing:
+- Ideal composition, person emotion, text overlay, color scheme, background
+- Ready to use with **DALL-E, Midjourney, Gemini Image, or Canva AI**
+- Copy-to-clipboard from the results page
+
+---
+
+### ⚡ GPU-Accelerated Export
+
+| GPU Brand | Encoder | Speed Improvement |
+|-----------|---------|------------------|
+| **NVIDIA** | NVENC (h264_nvenc) | 3–10x faster |
+| **AMD** | AMF (h264_amf) | 3–10x faster |
+| **Intel** | QSV (h264_qsv) | 3–10x faster |
+| **CPU** | libx264 (fallback) | Standard speed |
+
+Auto-detected — no manual configuration needed.
+
+---
+
+### 💧 Dual Watermark System
+
+- **Custom Image Watermark** — drag-and-drop positioning on 9:16 canvas, configurable size (5-50%) and opacity (0-100%)
+- **Credit Watermark** — automatically shows original YouTube channel name for proper attribution
+
+---
+
+## 📊 How VIDABIN Compares
+
+| Feature | OpusClip / Vizard / Klap | VIDABIN Clipper |
+|---------|--------------------------|-----------------|
+| **Monthly Cost** | $15–$79/month | **$4/month** (tool license) |
+| **AI Processing Cost** | Hidden markup in subscription | **~$0.01–$0.05/video** or **$0 with free models** |
+| **Video Minute Limit** | 60–300 min/month (credit-based) | **∞ Unlimited** — no caps |
+| **Processing Location** | ☁️ Cloud (their servers) | 🖥️ **100% local on your PC** |
+| **API Key Security** | Stored on their cloud | ✅ **Stays on your device only** |
+| **AI Providers** | 1 built-in (no choice) | **6 providers** + Custom LLM |
+| **Face Tracking** | 1 standard engine | **4 engines** (OpenCV → InsightFace+ASD) |
+| **TTS Hook System** | ❌ Not available | ✅ **3 engines** (OpenAI, Gemini, ElevenLabs) |
+| **AI Thumbnail Prompts** | ❌ Not available | ✅ Per-clip AI prompts |
+| **Caption System** | Cloud auto-captions | **Dual:** SRT (free) + Whisper fallback |
+| **Languages** | Varies (20–100+) | **50+** with auto-detection & auto font |
+| **GPU Acceleration** | Cloud-handled | ✅ NVIDIA / AMD / Intel auto-detect |
+| **Platform Upload** | Limited | **5 platforms** (YT, TT, IG, FB, Threads) |
+| **Per-Clip SRT Files** | ❌ Not available | ✅ For CapCut / Premiere Pro |
+| **Yearly Cost** | $180–$948/year | **$48/year** + minimal API costs |
+
+> 💰 **Save $130–$900+/year** compared to cloud-based alternatives.
+
+---
+
+## 💎 Pricing
+
+All plans include **every feature** — no feature gating or tier restrictions.
+
+| Plan | Price | Duration | Details |
+|------|-------|----------|---------|
+| 🆓 **Free Trial** | $0 | 3 Days | Full access to all features |
+| 📅 **Monthly** | $4/month | 30 days | All features, 1 device |
+| 📆 **Yearly** | $40/year | 365 days | Best value — 2 months free |
+
+> 🌐 **[Purchase on our website →](https://www.vidabinclipper.com/)**
+
+---
+
+## 💻 System Requirements
+
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **OS** | Windows 10 / macOS 12 / Ubuntu 20.04 | Windows 11 / macOS 14 / Ubuntu 22.04 |
+| **RAM** | 4 GB | 8 GB+ |
+| **Storage** | 2 GB free | 10 GB+ free |
+| **Internet** | Required for AI APIs | Broadband recommended |
+| **GPU** | Optional (CPU fallback) | NVIDIA RTX Series (NVENC) |
+
+**Auto-managed dependencies:**
+- ✅ **FFmpeg** — auto-downloaded on first launch
+- ✅ **yt-dlp** — auto-downloaded + auto-updates every 7 days
+- ✅ **Deno** — auto-downloaded for enhanced YouTube support
+- ✅ **InsightFace models** — auto-installed when InsightFace mode is selected
+
+---
+
+## 🔐 Security & Privacy
+
+VIDABIN Shorts Clipper is a **desktop application** — not a cloud platform. Your privacy is guaranteed by design:
+
+- 🔒 **100% Local Processing** — all cutting, cropping, captioning happens on your machine
+- 🔑 **API Keys Stay Local** — stored in local `config.json` only, never sent to our servers
+- 🍪 **YouTube Cookies** — stored locally, never uploaded
+- 🔐 **Session Encryption** — auth tokens encrypted with AES-128 Fernet
+- 📡 **AI API Calls** — only transcript text is sent to the LLM (no video/audio uploaded)
+- 🛡️ **Machine-Locked License** — each license bound to a unique hardware ID
+
+> You can verify this yourself by monitoring network traffic with **Wireshark** or **GlassWire**. All API requests go directly to `api.openai.com`, `generativelanguage.googleapis.com`, or your configured AI endpoint — **never to our servers**.
+
+---
+
+## 🌍 50+ Language Support
+
+### Perfect Rendering for All Scripts
+
+| Region | Languages |
+|--------|----------|
+| **South Asian** | Bengali, Hindi, Urdu, Marathi, Tamil, Telugu, Gujarati, Kannada, Malayalam, Punjabi, Odia, Nepali, Sinhala |
+| **European** | English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Polish, Czech, Romanian, Hungarian, Danish, Finnish, Norwegian, and more |
+| **East Asian** | Chinese (Simplified & Traditional), Japanese, Korean |
+| **Middle Eastern** | Arabic, Persian (Farsi), Hebrew |
+| **Southeast Asian** | Indonesian, Malay, Vietnamese, Thai, Filipino, Burmese, Khmer, Lao |
+| **Other** | Russian, Ukrainian, Turkish, Georgian, Armenian, Swahili, Amharic, Greek, and more |
+
+**How it works:**
+- 🔍 **Auto Language Detection** — Unicode script analysis detects the video's language
+- 🔤 **Auto Font Selection** — picks the correct font per script (Noto Sans family)
+- ✍️ **Perfect Typography** — handles complex scripts (Bengali conjuncts, Arabic ligatures, Thai tone marks)
+- 🗣️ **Multi-Language Hooks** — generates natural AI voice hooks in any supported TTS language
+
+---
+
+## 🏗️ Technical Architecture
+
+| Layer | Technology |
+|-------|-----------|
+| GUI Framework | CustomTkinter (Python) — card-based modular pages |
+| Video Download | yt-dlp + Deno JS runtime (fallback) |
+| Video Processing | FFmpeg (subprocess) with GPU-accelerated encoding |
+| Face Detection | OpenCV, MediaPipe, InsightFace (buffalo_l + ONNX), Light-ASD |
+| AI / LLM | OpenAI, Google Gemini, Groq, Anthropic Claude, OpenRouter, Custom |
+| Whisper | OpenAI Whisper API (whisper-1) via OpenAI-compatible endpoints |
+| TTS | OpenAI TTS, Google Gemini TTS, ElevenLabs API |
+| Caption Engine | ASS subtitle generation + FFmpeg libass burning |
+| Auth Backend | Supabase (PostgreSQL + GoTrue Auth + RLS) |
+| Session Encryption | Python Cryptography (Fernet / AES-128-CBC) |
+| YouTube Upload | Google API Python Client + OAuth2 |
+| TikTok Upload | TikTok Creator API + PKCE OAuth 2.0 |
+| Repliz Upload | Repliz REST API with HTTP Basic Auth |
+| GPU Detection | Custom `GPUDetector` — NVIDIA/AMD/Intel auto-detect |
+| Packaging | PyInstaller (cross-platform .spec files) |
+
+---
+
+## 🎯 Who Is This For?
+
+- 🎥 **Content Creators** — repurpose long-form videos into shorts automatically
+- 🎙️ **Podcast Editors** — extract highlight clips from interviews and episodes
+- 📱 **Social Media Managers** — create short-form content across multiple channels
+- 🏢 **Digital Agencies** — produce short-form content at scale for clients
+- 🌐 **Global Creators** — work in any of 50+ supported languages with perfect captions
+- 💻 **YouTubers** — grow on TikTok, Instagram Reels, and YouTube Shorts
+
+---
+
+## 📚 Documentation & Support
+
+| Resource | Link |
+|----------|------|
+| 📖 **Full Documentation** | [vidabinclipper.com/docs](https://www.vidabinclipper.com/docs.html) |
+| 🌐 **Website** | [vidabinclipper.com](https://www.vidabinclipper.com/) |
+| 💬 **WhatsApp Support** | [wa.me/8801752522902](https://wa.me/8801752522902) |
+| 📱 **Telegram** | [t.me/vidabinclipper](https://t.me/vidabinclipper) |
+| 📘 **Facebook** | [facebook.com/VidabinLabs](https://www.facebook.com/VidabinLabs) |
+
+---
+
+## ⭐ Star This Repo
+
+If VIDABIN Shorts Clipper helps you create better content faster, please consider giving this repo a **⭐ star**! It helps other creators discover the tool.
+
+---
+
+<p align="center">
+  <strong>Built with ❤️ by <a href="https://www.vidabinlabs.com/">VIDABIN Labs</a></strong>
+  <br/>
+  <sub>© 2025 VIDABIN Labs. All rights reserved.</sub>
+</p>
